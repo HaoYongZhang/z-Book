@@ -1,5 +1,10 @@
+
+/*样式方法*/
+
+//比例
 $ratio: 375 / 10;
 
+//px值转rem
 @function px2rem($px) {
   @return $px / $ratio + rem;
 }
